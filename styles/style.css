@@ -1,0 +1,51 @@
+
+.request-input__form{
+    text-align: center;
+}
+
+.request-input__field{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+.request-input__p{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+.request-input__button{
+    margin-top: 20px;
+    background: #355FCA;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.request-input__button:hover{
+    background: blue;
+    cursor: pointer;
+}
+
+
+.weather-section__container{
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}

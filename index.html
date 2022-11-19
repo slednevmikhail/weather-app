@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="styles/style.css" rel='stylesheet' type="text/css">
+</head>
+<body>
+<main>
+    <section class = "main-banner">
+        <div class = "request-input">
+            <form method="get" class="request-input__form" id="request-input__form">
+                <label class="request-input__label">
+                    <p class="request-input__p">Широта</p> <input class="request-input__latitude request-input__field" type="text">
+                    <p class="request-input__p">Долгота</p> <input class="request-input__longitude request-input__field" type="text">
+                    <button class="request-input__button" type="submit">Показать погоду</button>
+                </label>
+            </form>
+        </div>
+    </section>
+    <section class="weather-section" id="weather-section">
+        <div class="container">
+            <div class="weather-section__container">
+            </div>
+        </div>
+    </section>
+    <script src="scripts/script.js"></script>
+</main>
+</body>
+</html>
