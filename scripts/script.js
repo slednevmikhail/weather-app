@@ -7,13 +7,13 @@ const GetWeatherInfo = (event) => {
         GetWeatherData(latitude, longitude).then((weatherData) => FormatData(weatherData, latitude, longitude))
     }
     else {
-        alert('Введенные данные некорректны!')
+        alert('Ошибка! Неправильно введены координаты! Код ошибки:')
     }
 }
 
 const IsValid = (inputValues) => {
-    const firstValue = parseFloat(inputValues[0])
-    const secondValue = parseFloat(inputValues[1])
+    const firstValue = Number(inputValues[0])
+    const secondValue = Number(inputValues[1])
     return typeof firstValue === 'number' && typeof secondValue === 'number'
         && !isNaN(firstValue) && !isNaN(secondValue)
         && -90 <= firstValue <= 90 && -180 <= secondValue <= 180;
