@@ -49,3 +49,27 @@
     line-height: 48px;
     text-align: center;
 }
+
+.weather-section__container>{
+    border: 2px solid black;
+}
+
+.widget-control__form{
+    text-align: center;
+}
+.widget_control__remove-button{
+    margin-top: 20px;
+    background: #355FCA;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.widget_control__remove-button:hover{
+    background: blue;
+    cursor: pointer;
+}
